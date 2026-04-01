@@ -1,29 +1,29 @@
 cask "binlogviz" do
-  version "0.6.0"
+  version "0.7.0"
 
   on_macos do
     on_intel do
-      sha256 "26d309808b82b656ac5ad35a6dd009c4527d9320b643ef22f0b8e1bd308b8b02"
-      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.6.0/binlogviz_0.6.0_darwin_amd64.tar.gz",
+      sha256 "4aae9e57fcce80aeadf61fd143acbe89bfed8c631ac40b35705bcc2a0fa3a9f6"
+      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.7.0/binlogviz_0.7.0_darwin_amd64.tar.gz",
           verified: "github.com/Fanduzi/BinlogVisualizer/"
     end
     on_arm do
-      sha256 "ef87a1ec8ab3356b4baded74aa4f33405f048a3ca964464a34798e74c376cd6c"
-      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.6.0/binlogviz_0.6.0_darwin_arm64.tar.gz",
+      sha256 "4546f8d1c053b20666c05624db0518512374f1a9966ab514377125a2e96a7265"
+      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.7.0/binlogviz_0.7.0_darwin_arm64.tar.gz",
           verified: "github.com/Fanduzi/BinlogVisualizer/"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "d6630ebc3132a7dc0d867f2ce38e1600850ad101a8069d56325852c3c8a185de"
-      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.6.0/binlogviz_0.6.0_linux_amd64.tar.gz",
+      sha256 "0de5b45fd1264384c7c3cbb8bd52ab38b54884fb03d3792836bc6d4136d16f2c"
+      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.7.0/binlogviz_0.7.0_linux_amd64.tar.gz",
           verified: "github.com/Fanduzi/BinlogVisualizer/"
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        sha256 "5d0faa7f4177c529566637f6f18940c47e203f1b35a657b13f221e45c12253bf"
-        url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.6.0/binlogviz_0.6.0_linux_arm64.tar.gz",
+        sha256 "913993579c988bffc7ad281bc431e2fbe7effb4f6ffd090a714bbe0216ac7bdf"
+        url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.7.0/binlogviz_0.7.0_linux_arm64.tar.gz",
             verified: "github.com/Fanduzi/BinlogVisualizer/"
       end
     end
