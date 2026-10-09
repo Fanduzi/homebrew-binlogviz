@@ -1,29 +1,29 @@
 cask "binlogviz" do
-  version "0.23.22"
+  version "0.23.23"
 
   on_macos do
     on_intel do
-      sha256 "94a08d80ba6680d39e4ffebcddae819555950c15067b043428a8a286410a9fc1"
-      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.23.22/binlogviz_0.23.22_darwin_amd64.tar.gz",
+      sha256 "f12e1407ad5c9e5e7a89a7bf9f1944b227b743668daea3074cbae050a0289707"
+      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.23.23/binlogviz_0.23.23_darwin_amd64.tar.gz",
           verified: "github.com/Fanduzi/BinlogVisualizer/"
     end
     on_arm do
-      sha256 "02d2d68c0ff65dc2b0fc763230f69091cbf3d956171a9b3e16b9339d765ebdfa"
-      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.23.22/binlogviz_0.23.22_darwin_arm64.tar.gz",
+      sha256 "1ca2ba8eabfc21652c32b63a2480e46d41c47e6c06a860181e1b6ae7ecd1ae1f"
+      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.23.23/binlogviz_0.23.23_darwin_arm64.tar.gz",
           verified: "github.com/Fanduzi/BinlogVisualizer/"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "cadc89991da3346b179a7d38b40fabf11a6730871b7457b1ba99ca6a91e17ba4"
-      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.23.22/binlogviz_0.23.22_linux_amd64.tar.gz",
+      sha256 "201a357dfe6dd39ef93d43a93940cc7aaf600c5ada384efec778d9b3278475a7"
+      url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.23.23/binlogviz_0.23.23_linux_amd64.tar.gz",
           verified: "github.com/Fanduzi/BinlogVisualizer/"
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        sha256 "fff12351732c2f406948a2f19b8a012dc8b2f7e18fbcd280e1732e576f551149"
-        url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.23.22/binlogviz_0.23.22_linux_arm64.tar.gz",
+        sha256 "362a22bbf971097a02819c681eeec17f15192c1afe1b28f613e8eef1bdef9b74"
+        url "https://github.com/Fanduzi/BinlogVisualizer/releases/download/v0.23.23/binlogviz_0.23.23_linux_arm64.tar.gz",
             verified: "github.com/Fanduzi/BinlogVisualizer/"
       end
     end
